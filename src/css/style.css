@@ -1,62 +1,121 @@
 body {
-    background-color: #5c5a5a;
-    color: rgb(0,0,0);
+	color: rgb(0,0,0,0.5);
+
 }
 .container{
     max-width: 1170px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;}
     
-}
 .main_header{
-    background-color:#bba818;
-}
-.logo { 
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-
+	height: 80px;
+	padding-top: 20px;
+	background:url(../img/backk.jpg);
+	height: 550px;
 
 }
 .header_nav{
-    float: right;
+	text-align: center;
 }
-.nav_item{
-    display:inline-block;
-    margin: auto 5px;
+.nav_list{
+	padding-top: 10px;
 }
-.nav_item a{
-    text-decoration: none;
+.nav_item {
+	display: inline-block;
+	margin-right: 20px;
+	vertical-align: middle;
+ }
+ .nav_item a{	
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration:none;
+	color:rgb(49, 121, 49);;
 }
-.nav_list{margin-right: 50px;
-    margin-top: 50px;
-
-}
-.nav_item a:hover{
-    color:red;
-    text-decoration-line:underline ;
-
+.nav_item a:hover {
+	color: rgb(49, 121, 49);
+	text-decoration-line:overline;
 }
 .nav_item a:active{
 	color: red;
 }
+.nav_item a:focus{
+	color: red;
+}
+
+
+
 
 .main_content{
-    background-color:rgb(156, 152, 152);
+	background:  #2B2B2B;
+	padding-top: 100px;
+}
+
+.banner_text{
+	margin-top: 100px;
+    width: 100%;
+	text-align: center;
+	color: rgb(49, 121, 49);
+	margin-top: 150px;
+}
+.banner_text h1{
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+.banner_text h3{
+	width: 70%;
+	margin: 0 auto;
+	font-size: 25px;
+}
+.more_description{
+	font-style:italic;
+	text-decoration-line: none;
+	color:  rgb(5, 197, 5);
+	font-size: 27px;
+
 }
 
 .img_profile{
     margin:20px;
 }
+.about_me{
+	width: 65%;
+	float: right;
+	padding-right: 50px;
+	margin-bottom: 50px;
+
+}
+.profile_pic{
+	position: relative;
+    padding: 0 20px;
+	float: left;
+}
+.profile_pic img{
+	border-radius: 100%;
+	width: 220px;
+	height: 180px;
+
+}
+
+.about_me h2{
+	font-size: 26px;
+	color:white;
+	margin-bottom: 13px;
+}
+.about_me p{
+	line-height: 25px;
+	color:#7A7A7A;
+	margin-bottom: 13px;;
+	
+}
 .cv_rrjetet-sociale{
     float: right;
 }
 .main_footer{
-    background-color: rgb(80, 70, 70);
+
 }
 .footerWrap{
-    width: 300px;
-    text-align: center;
+    width: 400px;
     
     
 }
